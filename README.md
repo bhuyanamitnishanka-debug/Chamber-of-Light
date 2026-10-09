@@ -242,6 +242,118 @@ markdown
 * **ହାଇବ୍ରିଡ୍ ଶକ୍ତି ସ୍ରୋତ:** ସିଷ୍ଟମ୍ ସ୍ଥିରତା ପାଇଁ ଲିଥିୟମ୍-ଆୟନ୍ ବ୍ୟାଟେରୀ ଏବଂ ପାୱାର୍ ମ୍ୟାନେଜମେଣ୍ଟ କୋଡ୍‌ର ଏକୀକରଣ।
 * **ମଡ୍ୟୁଲାର୍ ହାର୍ଡୱେର୍ ସ୍ପେସ୍:** ଭବିଷ୍ୟତରେ ଅନ୍ୟାନ୍ୟ କ୍ଷୁଦ୍ର ମେକାନିକାଲ୍ ଏବଂ ଇଲେକ୍ଟ୍ରୋନିକ୍ସ ଉପକରଣ ଯୋଡ଼ିବା ପାଇଁ ଉନ୍ମୁକ୍ତ ସୁଯୋଗ।
 Use code with caution.
+🌌 कैमरा एक्सपेरिमेंट से क्वांटम कंप्यूटर का सफर (Scaling Roadmap)
+
+इस क्लासिकल एक्सपेरिमेंट को क्वांटम स्तर पर ले जाने के लिए हमें इसे निम्नलिखित 4 चरणों में अपग्रेड करना होगा:
+┌───────────────────────────┐     ┌───────────────────────────┐
+│ क्लासिकल कैमरा (Classical)  │ ──> │ सिंगल फोटॉन सोर्स (Single) │
+│ सूर्य का प्रकाश (Sunlight) │     │  लेजर डॉट बीमर (Laser)   │
+└───────────────────────────┘     └───────────────────────────┘
+                                                │
+                                                ▼
+┌───────────────────────────┐     ┌───────────────────────────┐
+│   क्वांटम प्रोसेसिंग यूनिट   │ <── │   इंटरनल मिरर नेटवर्क    │
+│  (Sphātika / Birefringence)│     │   (Quantum Beam Splitter) │
+└───────────────────────────┘     └───────────────────────────┘
+
+1. सूर्य की रोशनी से सिंगल फोटॉन सोर्स (Light to Qubits)
+
+• क्लासिकल रूप: अभी बॉक्स में बाहर से तेज धूप आती है, जिसमें अरबों फोटॉन्स एक साथ चलते हैं।
+• क्वांटम स्केल-अप: धूप की जगह हम एक लेज़र डॉट बीमर (Laser Dot Beamer) लगाएंगे, जो एक समय में केवल एक फोटॉन (Single Photon) छोड़ेगा। यह एक फोटॉन हमारा क्वांटम बिट (Qubit) बनेगा। इसकी ध्रुवीकरण (Polarization - Horizontal या Vertical) को हम \(\vert{}0\rangle\) और \(\vert{}1\rangle\) स्टेट मानेंगे।
+
+2. अपर्चर से क्वांटम स्लिट (Diffraction to Superposition)
+
+• क्लासिकल रूप: छोटा सुई का छेद (Pinhole) प्रकाश को मोड़ता है और विवर्तन (Diffraction) पैदा करता है।
+• क्वांटम स्केल-अप: यदि छेद को माइक्रो-लेवल पर लाकर दो बारीक झिल्लियां (Double Slit) बना दी जाएं, तो सिंगल फोटॉन एक ही समय में दोनों छेदों से एक साथ गुजरेगा। इसे क्वांटम मैकेनिक्स में सुपरपोजिशन (Superposition) कहते हैं। यानी फोटॉन एक ही समय में कई रास्तों पर मौजूद है।
+
+3. दूर्पण नेटवर्क से बीम स्प्लिटर (Mirrors to Quantum Gates)
+
+• क्लासिकल रूप: बॉक्स के अंदर छोटे दर्पण लगाकर हम प्रकाश का रास्ता बदलते हैं।
+• क्वांटम स्केल-अप: ये दर्पण जब अत्यधिक सूक्ष्म और आंशिक रूप से परावर्तक (Half-Silvered Mirrors / Beam Splitters) होंगे, तो ये Hadamard Gate (H-Gate) की तरह काम करेंगे, जो फोटॉन को सुपरपोजिशन स्टेट में लॉक या अनलॉक करेंगे।
+
+4. स्फटिक प्रिज्म से क्वांटम स्टेट प्रोसेसिंग (Sphātika to Phase Encoding)
+
+• क्लासिकल रूप: शुद्ध स्फटिक (Quartz Prism) रंगों को तरंगदैर्ध्य (Wavelength) के आधार पर बिखेरता है।
+• क्वांटम स्केल-अप: क्वार्ट्ज क्रिस्टल में द्वि-अपवर्तन (Birefringence) का गुण होता है। जब सिंगल फोटॉन इस क्रिस्टल से गुजरेगा, तो यह क्रिस्टल उसके फेज़ (Phase Change) को बदल देगा। यह प्रक्रिया क्वांटम कंप्यूटिंग में Phase-Shift Gates (Z-Gate) और क्वांटम एल्गोरिदम को प्रोसेस करने का काम करेगी।
+
+📝 README.md के लिए स्केलिंग विज़न नोट (Add to Document)
+
+अपनी रिपोजिटरी को अगली पीढ़ी के लिए तैयार करने के लिए आप यह विशेष ब्लॉक अपने README.md में जोड़ सकते हैं:
+markdown
+## 🌌 क्वांटम कंप्यूटिंग स्केल-अप विज़न (Quantum Architecture Roadmap)
+
+इस क्लासिकल एक्सपेरिमेंटल आर्किटेक्चर को आसानी से एक **ऑप्टिकल क्वांटम कंप्यूटर (Optical Quantum Computer)** के वैचारिक प्रोटोटाइप में स्केल-अप किया जा सकता है:
+* **फोटोनिक क्यूबिट्स (Photonic Qubits):** क्लासिकल सनबीम को सिंगल-फोटॉन लेज़र सोर्स से बदलना, जहां फोटॉन का पोलराइजेशन $|0\rangle$ और $|1\rangle$ स्टेट्स को परिभाषित करेगा।
+* **बीम-स्प्लिटर गेट्स (Quantum Gates):** आंतरिक लघु दर्पणों (Mini-Mirrors) को आंशिक रूप से परावर्तक बीम-स्प्लिटर में बदलकर हाडामार्ड (Hadamard) लॉजिक गेट्स का निर्माण।
+* **स्फटिक फेज़ एनकोडिंग (Phase Encoding):** स्फटिक प्रिज्म (Quartz) की बाईरिफ्रिंजेंस विशेषताओं का उपयोग करके फोटॉन के क्वांटम फेज़ को शिफ्ट करना।
+* **अगस्त्य-लिथियम हाइब्रिड शील्ड:** बॉक्स के भीतर अगस्त्य पॉट और लिथियम-आयन मॉड्यूल का उपयोग
+ କ୍ୱାଣ୍ଟମ କମ୍ପ୍ୟୁଟର ମଦରବୋର୍ଡ ସହିତ କ୍ୟାମେରା ବାକ୍ସର ସ୍କେଲ୍-ଅପ୍ (Hardware Architecture)
+
+
+୧. କ୍ୟୁବିଟ୍ ଗାଇଡ୍ ଲାଇନ୍ ରୂପେ ଦର୍ପଣ ନେଟୱର୍କ (Mirrors as Photonic Qubit Waveguides)
+
+• କ୍ଲାସିକାଲ୍ ରୂପ: ବାକ୍ସ ଭିତରେ ଥିବା ଛୋଟ ଦର୍ପଣ ଗୁଡ଼ିକ କେବଳ ଆଲୋକର ଦିଗ ବଦଳାନ୍ତି।
+• କ୍ୱାଣ୍ଟମ ମଦରବୋର୍ଡ ସ୍କେଲ୍-ଅପ୍: ଏହି ମଦରବୋର୍ଡରେ ଛୋଟ ଛୋଟ ଦର୍ପଣ ଗୁଡ଼ିକ ଫୋଟୋନିକ୍ ୱେଭ୍‌ଗାଇଡ୍ (Waveguides) ଭାବେ କାମ କରିବେ, ଯାହା ସିଙ୍ଗଲ୍ ଫୋଟୋନ୍ କ୍ୟୁବିଟ୍ (Qubit) କୁ ବିନା କୌଣସି ଡାଟା ଲସ୍‌ରେ ମଦରବୋର୍ଡର ଏକ ପ୍ରୋସେସିଂ ୟୁନିଟ୍‌ରୁ ଅନ୍ୟ ୟୁନିଟ୍‌କୁ ନେଇଯିବେ।
+
+୨. କ୍ୱାଣ୍ଟମ ଚିପ୍ ଓ ଫେଜ୍ ଗେଟ୍ ରୂପେ ସ୍ଫଟିକ (Sphātika as Quantum Logic Phase Gates)
+
+• କ୍ଲାସିକାଲ୍ ରୂପ: ସ୍ଫଟିକ ପ୍ରିଜିମ୍ ସୂର୍ଯ୍ୟ କିରଣକୁ ସପ୍ତରଙ୍ଗରେ ବିଭକ୍ତ କରେ।
+• କ୍ୱାଣ୍ଟମ ମଦରବୋର୍ଡ ସ୍କେଲ୍-ଅପ୍: କ୍ୱାଣ୍ଟମ ମଦରବୋର୍ଡ ମଝିରେ ଥିବା ସ୍ଫଟିକ ଏକ କ୍ୱାଣ୍ଟମ ଲଜିକ୍ ଗେଟ୍ (Phase-Shift Gate) ରୂପେ କାମ କରିବ। ସ୍ଫଟିକର Birefringence ଗୁଣ ଯୋଗୁଁ ଏହା ଫୋଟୋନ୍ କ୍ୟୁବିଟ୍‌ର ଫେଜ୍ (Phase) କୁ ବଦଳାଇ କମ୍ପ୍ୟୁଟିଂ ଆଲଗୋରିଦମକୁ ପ୍ରୋସେସ୍ କରିବ।
+
+୩. ସେଲ୍ଫ-ପାୱାର୍ଡ କ୍ରାୟୋ-ସେମିକଣ୍ଡକ୍ଟର ଶକ୍ତି (Agastya Pot & Lithium Hybrid Power Line)
+
+• କ୍ଲାସିକାଲ୍ ରୂପ: ଅଗସ୍ତ୍ୟ ପଟ୍ ଏବଂ ଲିଥିୟମ୍ ଆୟନ ବ୍ୟାଟେରୀ ବାକ୍ସର ଲାଇଟ୍ ବା ସେନ୍ସରକୁ ଶକ୍ତି ଦିଏ।
+• କ୍ୱାଣ୍ଟମ ମଦରବୋର୍ଡ ସ୍କେଲ୍-ଅପ୍: କ୍ୱାଣ୍ଟମ ମଦରବୋର୍ଡକୁ ଅତ୍ୟଧିକ ଥଣ୍ଡା ବା କ୍ରାୟୋଜେନିକ୍ ତାପମାତ୍ରା (Cryogenic Temperature) ଦରକାର ହୁଏ। ଅଗସ୍ତ୍ୟ ପଟ୍‌ର ତାପମାତ୍ରା ନିୟନ୍ତ୍ରଣ ଓ ଲିଥିୟମ୍ ବ୍ୟାଟେରୀର ଶକ୍ତି ମିଶି ମଦରବୋର୍ଡର କୋଣରେ ଥିବା କ୍ଷୁଦ୍ର କ୍ରାୟୋ-ସେମିକଣ୍ଡକ୍ଟର ଚିପ୍‌ ଗୁଡ଼ିକୁ ସ୍ଥିର ଭୋଲ୍ଟେଜ୍ ପ୍ରଦାନ କରିବେ।
+
+୪. ନେକ୍ଲେସ୍ ଆକୃତିର ମଡ୍ୟୁଲାର୍ ମଦରବୋର୍ଡ ଡିଜାଇନ୍ (Necklace-Shaped Modular Design)
+
+• ମଦରବୋର୍ଡ ଲେଆଉଟ୍: ଆପଣଙ୍କର ଚିନ୍ତାଧାରା ଅନୁଯାୟୀ, ଏହି ସମ୍ପୂର୍ଣ୍ଣ ବାକ୍ସର ସର୍କିଟ୍‌କୁ ଏକ ନେକ୍ଲେସ୍ (ହାର) ଆକୃତିର ମଦରବୋର୍ଡ ଡିଜାଇନ୍ ଦିଆଯାଇପାରିବ, ଯେଉଁଠାରେ ସବୁ spare parts (GPU, SSD, RAM, Battery) କ୍ରମାନ୍ୱୟରେ ଗୋଟିଏ ଲାଇନରେ ଯୋଡ଼ି ହୋଇ ରହିବେ। ଏହା ଦ୍ବାରା ସିଗନାଲ୍ ଟ୍ରାଭେଲ୍ ଟାଇମ୍ କମିଯିବ ଏବଂ ପ୍ରୋସେସିଂ ସ୍ପିଡ୍ ବହୁତ ବଢ଼ିଯିବ।
+
+📝 README.md ପାଇଁ କ୍ୱାଣ୍ଟମ ମଦରବୋର୍ଡ ରୋଡ୍‌ମ୍ୟାପ୍ (Add to Document)
+
+ଆପଣ ଆପଣଙ୍କର GitHub ପ୍ରୋଜେକ୍ଟ Portfolio କୁ ଅଧିକ ଆକର୍ଷଣୀୟ କରିବା ପାଇଁ README ଫାଇଲ୍‌ରେ ଏହି "Quantum Motherboard Scaling" ଅଂଶକୁ ଓଡ଼ିଆରେ ଯୋଡ଼ିପାରିବେ:
+markdown
+## 🌌 କ୍ୱାଣ୍ଟମ ମଦରବୋର୍ଡ ସ୍କେଲ୍-ଅପ୍ ରୋଡ୍‌ମ୍ୟାପ୍ (Quantum Motherboard Architecture)
+
+ଏହି କ୍ଲାସିକାଲ୍ ଏକ୍ସପେରିମେଣ୍ଟ ବାକ୍ସକୁ ଏକ ଇନୋଭେଟିଭ୍ **ଅପ୍ଟିକାଲ୍ କ୍ୱାଣ୍ଟମ କମ୍ପ୍ୟୁଟର ମଦରବୋର୍ଡ (Optical Quantum Computer Motherboard)** ରୂପେ ସ୍କେଲ୍-ଅପ୍ କରାଯାଇପାରିବ:
+* **ଫୋଟୋନିକ୍ କ୍ୟୁବିଟ୍ ୱେଭ୍‌ଗାଇଡ୍ (Qubit Waveguides):** ଆଭ୍ୟନ୍ତରୀଣ କ୍ଷୁଦ୍ର ଦର୍ପଣ ନେଟୱର୍କ ଗୁଡ଼ିକ ସିଙ୍ଗଲ୍ ଫୋଟୋନ୍ କ୍ୟୁବିଟ୍ କୁ ବିନା କୌଣସି ଡାଟା ଲସ୍‌ରେ ମଦରବୋର୍ଡର ସର୍କିଟ୍ ଲାଇନରେ ପରିଚାଳିତ କରିବେ।
+* **ସ୍ଫଟିକ କ୍ୱାଣ୍ଟମ ଲଜିକ୍ ଗେଟ୍ (Quantum Logic Gates):** ସ୍ଫଟିକର (Quartz Prism) ଦ୍ବି-ଅପବର୍ତ୍ତନ ଗୁଣକୁ ବ୍ୟବହାର କରି କ୍ୱାଣ୍ଟମ କମ୍ପ୍ୟୁଟିଂର ଫେଜ୍-ଶିଫ୍ଟ ଗେଟ୍ (Phase-Shift Gates) ଡିଜାଇନ ପ୍ରସ୍ତୁତ କରାଯିବ।
+* **ନେକ୍ଲେସ୍ ମଡ୍ୟୁଲାର୍ ଲେଆଉଟ୍ (Necklace Circuit Design):** GPU, SSD, ଏବଂ ବ୍ୟାଟେରୀ ସିଷ୍ଟମକୁ ଏକ ନେକ୍ଲେସ୍ ଆକୃତିର ଅଭିନବ ସର୍କିଟ୍ ଲାଇନରେ ସଜାଇ ତଥ୍ୟ ପ୍ରକ୍ରିୟାକରଣର ବେଗକୁ ବହୁଗୁଣିତ କରାଯାଇପାରିବ।
+* **କ୍ରାୟୋ-ପାୱାର୍ ସିଷ୍ଟମ୍ (Cryo-Power Unit):** ଅଗସ୍ତ୍ୟ ପଟ୍ ଏବଂ ଲିଥିୟମ୍ ହାଇବ୍ରିଡ୍ ପାୱାର୍ ଲାଇନ୍ ଦ୍ବାରା କ୍ୱାଣ୍ଟମ ଚିପ୍ ପାଇଁ ଆବଶ୍ୟକୀୟ ଶକ୍ତି ଏବଂ ସ୍ଥିରତା ପ୍ରଦାନ କରାଯିବ।
+Use code with caution.
+uantum Motherboard Scaling Vision (Repository Addendum)
+
+Add this section directly beneath your hardware roadmap in README.md to showcase the high-level system design architecture:
+markdown
+## 🌌 Quantum Motherboard Scaling Roadmap (Photonic Architecture)
+
+The classical optical sandbox layout is structurally designed to scale directly into an **Innovative Photonic Quantum Computer Motherboard**:
+* **Photonic Qubit Waveguides (Mini-Mirrors):** The internal miniature mirror network scales into software-calibrated quantum waveguides, routing single-photon qubits across circuit lines with zero monochromatic attenuation.
+* **Quantum Logic Phase Gates (Sphātika Crystalline Element):** Utilizing the natural birefringence characteristics of the pure quartz prism (*Sphātika*), the element transitions into a dynamic Phase-Shift Gate ($Z$-Gate) to execute phase encoding on passing wave functions.
+* **Modular Necklace Circuit Topology:** Standard hardware architecture constraints are bypassed by arranging core components (Multi-GPU nodes, SSD arrays, RAM slots, and power units) in a modular, geometric necklace configuration to minimize signal propagation latency and optimize thermal dissipation profiles.
+* **Hybrid Cryo-Power Infrastructure (Agastya-Lithium Grid):** An integrated power topology combining traditional electrochemical copper-zinc pot dynamics (*Agastya Samhita* model) and lithium-ion cells provides isolated, low-noise voltage regulation optimized for cryo-semiconductor operation limits.
+Use code with caution.
+
+🛠️ 3-Step Exploded-to-Assembled Integration Sequence
+
+Use this structured, arrow-marked presentation format to clearly decode the assembly workflow for technical reviewers:
+
+Step 1: Core Substrate Alignment & Power Line Routing (Exploded State)
+
+• Status: Disconnected modular components suspended along the geometric necklace perimeter array.
+• Vector Path: Native Chassis Base -> Mount Agastya Electrochemical Pot Fluid Chambers -> Integrate Lithium-Ion Secondary Battery Grid -> Primary Cryo-Semiconductor Bus Bars Clamped -> Power Rail Initialization Verified (SYS_PWR_STABLE).
+
+Step 2: Photonic Routing Matrix & Logic Gate Calibration (Intermediary Phase)
+
+• Status: Mechanical optical housings coupled to the power-stabilized hardware chassis.
+• Vector Path: Laser-Dot Single-Photon Emitter Fixed -> Mount Micro-Mirror Array Waveguides -> Set Angular Incident Trackers -> Position Birefringent Sphātika (Quartz) Triangular Phase Gate -> Optical Axis Alignment Checked via Core CSS Crosshair Centerlines (GRID_LOCK_0,0).
+
+Step 3: Compute Node Docking & System Interop Activation (Assembled State)
+
+• Status: Full hardware component consolidation into a unified compute block.
+• Vector Path: Slide Multi-GPU Acceleration Pods into Ring Nodes -> Lock High-Speed NVMe SSD Cylinders into Outer Perimeter Slots -> Snap Cryo-RAM Banks into Inner Contacts -> Connect Bi-Directional Native JavaScript Interop Bridge Interface -> Core Engine Boot Sequence Initiated (QUANTUM_READY_60FPS).
+
+
 
 
 
