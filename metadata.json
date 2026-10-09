@@ -1,0 +1,6 @@
+{
+  "name": "Chamber of Light",
+  "description": "An interactive engineering graphic novel and optical physics workbench exploring the global lineage of spectrometry from Mozi and Ibn al-Haytham to the Aṁśu Bodhinī and Newton.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
