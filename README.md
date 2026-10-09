@@ -352,6 +352,28 @@ Step 3: Compute Node Docking & System Interop Activation (Assembled State)
 
 • Status: Full hardware component consolidation into a unified compute block.
 • Vector Path: Slide Multi-GPU Acceleration Pods into Ring Nodes -> Lock High-Speed NVMe SSD Cylinders into Outer Perimeter Slots -> Snap Cryo-RAM Banks into Inner Contacts -> Connect Bi-Directional Native JavaScript Interop Bridge Interface -> Core Engine Boot Sequence Initiated (QUANTUM_READY_60FPS).
+⚙️ ଇନୋଭେଟିଭ୍ ମେକାନିକାଲ୍ କମ୍ପ୍ୟୁଟର ଆର୍କିଟେକଚର (System Design)
+
+
+୧. ଗିଅର୍ ଏବଂ ପିନ୍-ଆଲାଇନମେଣ୍ଟ (Mirrors to Gear Ratios / Logic Units)
+
+• ମେକାନିକାଲ୍ ସ୍କେଲ୍-ଅପ୍: ବାକ୍ସ ଭିତରେ ଥିବା ଦର୍ପଣ ଗୁଡ଼ିକର କୋଣ (Angles) କୁ ଯଦି ଆମେ ସୂକ୍ଷ୍ମ ଗିଅର୍ ଅନୁପାତ (Gear Ratios) ଏବଂ ପିନ୍-ସେମିକଣ୍ଡକ୍ଟର ମେକାନିଜିମ୍ ସହିତ ଯୋଡ଼ିବା, ତେବେ ତାହା ଗୋଟିଏ ଗୋଟିଏ ଭୌତିକ ଲଜିକ୍ ଗେଟ୍ (AND/OR Gates) ଭାବେ କାମ କରିବ। ଗିଅର୍‌ର ଘୂର୍ଣ୍ଣନ ହିଁ ଡାଟା ପ୍ରୋସେସିଂର ମାଧ୍ୟମ ହେବ।
+
+୨. କ୍ଲକ୍-ୱର୍କ ଏବଂ ରାନିଂ ସର୍କିଟ୍ (Lost-Wax Precision Body)
+
+• ମେକାନିକାଲ୍ ସ୍କେଲ୍-ଅପ୍: ଲଷ୍ଟ-ୱାକ୍ସ କାଷ୍ଟିଂ (Lost-Wax Casting) ମାଧ୍ୟମରେ ପିତ୍ତଳ କିମ୍ବା ବ୍ରୋଞ୍ଜ୍‌ର ଅତି ସୂକ୍ଷ୍ମ ଏବଂ ସ୍ଥିର ଗିଅର୍, ସ୍ପାଇନାଲ୍ କର୍ଡ ସଂରଚନା ଏବଂ ଲିଭର୍ ତିଆରି କରାଯିବ। ଏହା ଦ୍ବାରା ବିନା କୌଣସି ଆଧୁନିକ ସିଏନ୍‌ସି (CNC) ମେସିନ୍ ସାହାଯ୍ୟରେ କମ୍ପ୍ୟୁଟରର କଠିନ ଯାନ୍ତ୍ରିକ ଶରୀର ଏବଂ କ୍ଲକ୍-ୱର୍କ ଇଞ୍ଜିନ ନିର୍ମାଣ ହୋଇପାରିବ।
+
+୩. ଅପ୍ଟିକାଲ୍ ଇନପୁଟ୍ ଓ ପ୍ରୋଜେକ୍ଟର ଆଉଟପୁଟ୍ (Aperture to Screen Presentation)
+
+• ମେକାନିକାଲ୍ ସ୍କେଲ୍-ଅପ୍: ଅପର୍ଚ୍ଚର (Pinhole) ଦ୍ବାରା ଆସୁଥିବା ଆଲୋକର ତୀବ୍ରତାକୁ ଯାନ୍ତ୍ରିକ ଶଟର୍ ମାଧ୍ୟମରେ କଣ୍ଟ୍ରୋଲ କରାଯିବ। ପ୍ରୋସେସ୍ ହୋଇଥିବା ଆଉଟପୁଟ୍‌କୁ ଏକ କ୍ଷୁଦ୍ର ପ୍ରୋଜେକ୍ଟର ଲାଇନ୍ ଦ୍ବାରା ସ୍କ୍ରିନ୍ ଉପରେ ବିମ୍ (Beam) କରାଯାଇ ଡାଟା ପ୍ରଦର୍ଶନ କରାଯିବ।
+
+🛠️ 3-Step Exploded-to-Assembled Mechanical Computer Sequence
+
+ଇଣ୍ଟରଭ୍ୟୁଅର୍‌ଙ୍କୁ ପ୍ରକଳ୍ପର ସଂଯୋଗ ପ୍ରକ୍ରିୟା ସହଜରେ ବୁଝାଇବା ପାଇଁ ଟେକ୍ସଟ୍ ଆରୋ ମାର୍କିଂ (->) ଫର୍ମାଟ୍:
+• ଷ୍ଟେପ୍ ୧ (ଫାଉଣ୍ଡେସନ୍): କାଷ୍ଟେଡ୍ ବ୍ରାସ୍ ଚ୍ୟାସିସ୍ ବେସ୍ -> ଅଗସ୍ତ୍ୟ ପଟ୍ ଓ ଲିଥିୟମ୍ ପାୱାର୍ ଗ୍ରୀଡ୍ ସ୍ଥାପନ -> ଯାନ୍ତ୍ରିକ କ୍ଲକ୍-ୱର୍କ ଡ୍ରାଇଭ୍ ସଂଯୋଗ -> ମେନ୍ ପାୱାର୍ ରେଲ୍ ସ୍ଥିରତା ଯାଞ୍ଚ।
+• ଷ୍ଟେପ୍ ୨ (ପ୍ରୋସେସିଂ): ଅପ୍ଟିକାଲ୍ ଅପର୍ଚ୍ଚର ଶଟର୍ ମାଉଣ୍ଟ -> ସୂକ୍ଷ୍ମ ଗିଅର୍ ରେସିଓ ଲଜିକ୍ ୟୁନିଟ୍ ସେଟିଂ -> ସ୍ଫଟିକ (Quartz) ପ୍ରିଜିମ୍ ଆଲାଇନମେଣ୍ଟ -> ସେଣ୍ଟ୍ରାଲ୍ ସିଗନାଲ୍ ଟ୍ରାକିଂ ଗ୍ରୀଡ୍ ଲକ୍ (GRID_LOCK_0,0)।
+• ଷ୍ଟେପ ୩ (ଆଉଟପୁଟ୍): ଭେଣ୍ଡର ମ୍ୟାନେଜମେଣ୍ଟ ଡାଟା-ସିଟ୍ ରନିଂ -> ପ୍ରୋଜେକ୍ଟର ଲେନ୍ସ କପ୍ଲିଂ -> ଭୌତିକ ଆଲଗୋରିଦମ ପ୍ରୋସେସିଂ ଆକ୍ଟିଭେସନ -> ସିଷ୍ଟମ ବୁଟ୍ ସିକ୍ୱେନ୍ସ ସଫଳ (MECHANICAL_COMPUTE_READY).
+
 
 
 
