@@ -113,4 +113,64 @@ Module 02: Spectrometer Matrix ([Mod_02])
 • Interactive Variable Physics:
 	• Fluid Cell Absorption (Rasa-Dravya): Models dynamic Near-Infrared (NIR) attenuation. Users inject solutions like Shuddha Jala (Water) or Kāsīsa (Iron-sulfate mix) to absorb raw thermal energy, stabilizing high-intensity light beams while selectively filtering specific color bands.
 	• Angle of Incidence (\(\theta _{i}\)): Users rotate a natural quartz crystal elements prism (Sphātika Darpana) to calculate Snell's Law updates in real time, driving color refraction widths across the display.
+💰 Experimental Setup Cost & Bill of Materials (BOM)
+
+To assist curriculum developers, makers, and students using this graphic novel app, the table below outlines the real-world manufacturing and component costs required to replicate these digital simulations physically.
+
+Component / Material	Function	Physical Realization Type	Estimated Cost (USD)	Estimated Cost (INR)
+Module 01: Pinhole Camera				
+Recycled Cardboard Box	Camera Body / Opaque Dark Enclosure	Upcycled Content (Shoebox / Shipping)	$0.00	₹0
+Heavy-duty Aluminum Foil	Clean, light-blocking sheet for aperture	Household Kitchen Supply	$0.20	₹15
+Tracing / Matte White Paper	Translucent projection viewing screen	Standard Stationery Office Stock	$0.10	₹10
+Matte Black Paint or Paper	Inner lining to isolate environmental scattering	Standard Craft Supply	$1.50	₹120
+Pinhole Aperture Needle	Puncturing clean 0.5mm - 1.5mm opening	Household Tool	$0.05	₹5
+Total Physical Cost (Mod 01)	Geometric Ray Projection Assembly	Low-Cost Maker Project	~$1.85	~₹150
+				Module 02: Spectrometer				
+Collimating Lens (Jabākācha)	Focuses ambient sunbeams into narrow paths	Flux Purified Optical Convex Lens	$12.00	₹1,000
+Liquid Absorption Vessel	Water / Alchemical solution jacket (NIR Heat Sink)	Quartz Glass Cylindrical Cell	$8.50	₹700
+Quartz Prism (Sphātika)	UV-Visible-IR wide-band spectral dispersion	Pure Natural Triangular Quartz Crystal	$22.00	₹1,800
+Brass / Hardwood Enclosure	Secure internal alignment tracking chassis	Machined Precision Mechanical Jig	$18.00	₹1,500
+Alchemical Salts (Kāsīsa / Alum)	Wavelength pre-filtering solution matrix	Refined Mineral Compounds	$3.50	₹300
+Total Physical Cost (Mod 02)	Precision Optical Spectrometry Platform	Scientific Apparatus Level	~$64.00	~₹5,300
+
+
+Key Economic Takeaways:
+
+• The Pinhole Advantage: Module 01 represents a near zero-cost engineering baseline. It proves that fundamental geometric optics can be analyzed using entirely upcycled everyday materials.
+• The Spectrometer Baseline: Module 02 transitions into a specialized research instrument layout. The higher cost reflects the precision manufacturing required for optical-grade natural quartz elements (Sphātika) and purified, heat-resistant glass housings capable of focusing raw solar radiation safely without cracking.
+🛠️ Classroom Sourcing Guide: Low-Cost Spectrometer Alternatives
+
+To bring down the physical hardware budget of Module 02 from a scientific apparatus tier (~₹5,300) to an accessible classroom layer, use these mass-produced alternative components. This keeps the experimental physics intact while cutting baseline setup costs by more than 70%.
+
+Budget Component Equivalents Matrix
+
+• Dispersion Element (Prism):
+	• Premium: Pure Natural Crystalline Quartz Crystal (Sphātika) [~₹1,800]
+	• Low-Cost Alternative: Equilateral Acrylic / Polymer Prism (50mm) [~₹250 - ₹350]
+	• Sourcing: Local educational lab suppliers or mass e-commerce catalogs. Acrylic provides high visible spectrum transmission, though it cuts off ultraviolet bands.
+• Collimating Lens:
+	• Premium: Custom Flux-Purified Convex Glass Lens (Jabākācha) [~₹1,000]
+	• Low-Cost Alternative: Double Convex Acrylic Lens (Focal Length: 100mm–150mm) [~₹120 - ₹200]
+	• Sourcing: Hobbyist optician sets or science kits.
+• Liquid Vessel Housing:
+	• Premium: Quartz Glass Cylindrical Cell [~₹700]
+	• Low-Cost Alternative: Clear Borosilicate Glass Sample Vial or Acrylic Liquid Cell [~₹80 - ₹150]
+	• Sourcing: Standard chemical supply channels or repurposed thick-walled clear containers.
+• Chassis / Enclosure:
+	• Premium: Machined Brass & Hardwood Alignment Jig [~₹1,500]
+	• Low-Cost Alternative: 3D-Printed PLA Housing or Rigid Corrugated PVC Board Panels [~₹150 - ₹300]
+	• Sourcing: Local makerspaces, school 3D printers, or standard hardware shops.
+
+Adjusted Classroom Budget Projection
+
+  ┌──────────────────────────────────────────────────────────┐
+  │  Original Premium Hardware Blueprint Budget:  ~₹5,300   │
+  └────────────────────────────┬─────────────────────────────┘
+                               │
+                               ▼ [Component Substitution]
+  ┌──────────────────────────────────────────────────────────┐
+  │  Classroom Optimized Component Budget:       ~₹1,150     │
+  └──────────────────────────────────────────────────────────┘
+By shifting to standard polymer optics and local structural boards, an entire classroom laboratory module set can be constructed for roughly ₹1,100 to ₹1,200 ($14.00 USD).
+
 
